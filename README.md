@@ -1,6 +1,6 @@
 # 🩺 Ultrasound Scan Quality Check
 
-A machine learning system that evaluates ultrasound image quality at capture time.  
+A convolutional neural network that evaluates ultrasound image quality at capture time.  
 The model flags scans as **clear**, **unclear**, or **uncertain** to guide whether a retake is needed before interpretation.
 
 This system focuses on **scan quality**, not diagnosis.
