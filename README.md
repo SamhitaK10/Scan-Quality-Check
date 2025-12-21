@@ -9,7 +9,7 @@ This system focuses on **scan quality**, not diagnosis.
 https://huggingface.co/spaces/samhitak10/scan-quality-demo
 
 ## 🖼 Demo Preview
-<img src="path/to/your/image.png" alt="Ultrasound scan quality demo showing unclear result with recommendation" width="100%">
+<img width="1894" height="984" alt="image" src="https://github.com/user-attachments/assets/a618a7bf-fb24-4e3b-b307-d79138d410c8" />
 
 ## 🖼 Demo Overview
 
