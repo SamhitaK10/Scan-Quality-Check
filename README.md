@@ -1,0 +1,1 @@
+# ultrasound-scan-quality-check
