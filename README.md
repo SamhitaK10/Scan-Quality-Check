@@ -30,17 +30,24 @@ Example outputs:
 - Action-oriented outputs designed for real-time feedback  
 - Public demo deployed on Hugging Face Spaces  
 
-## 🧠 Model Details  
-- TensorFlow / Keras Convolutional Neural Network (CNN)  
-- Input: grayscale ultrasound images (128 × 128)  
-- Output: probability that a scan is unclear  
+## 🧠 Model Details
+- TensorFlow / Keras Convolutional Neural Network (CNN)
+- Input: grayscale ultrasound images (128 × 128)
+- Output: probability that a scan is unclear
+- Binary entropy computed from predicted probabilities to estimate uncertainty
 - Threshold-based mapping to:
-  - Clear  
-  - Uncertain  
-  - Unclear  
-- Designed to provide immediate guidance at the point of image capture  
+  - Clear
+  - Uncertain
+  - Unclear
+- Optimized for real-time scan quality feedback at image capture
+  
+## 📊 Performance Summary
+- Best validation accuracy: **~0.69**
+- Best validation AUC: **~0.79**
+- Performance stabilized after ~6–8 epochs
+- Model optimized for conservative uncertainty handling rather than peak accuracy
 
-## 🛠 Tech Stack  
+- ## 🛠 Tech Stack  
 - Python  
 - TensorFlow / Keras  
 - NumPy  
