@@ -10,7 +10,7 @@ When a scan is not clearly acceptable, it also **explains why** using a **Retrie
 https://huggingface.co/spaces/samhitak10/scan-quality-demo
 
 ## 🖼 Demo Preview
-<img width="1894" height="984" alt="image" src="https://github.com/user-attachments/assets/a618a7bf-fb24-4e3b-b307-d79138d410c8" />
+<img width="865" height="400" alt="image" src="https://github.com/user-attachments/assets/c15c5e8a-e7d1-4d86-a0ef-012fd27c45e3" />
 
 ## 🖼 Demo Overview
 
