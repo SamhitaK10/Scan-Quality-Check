@@ -1,4 +1,7 @@
-tensorflow==2.15.0
-numpy
-pillow
+tensorflow
 gradio
+pillow
+numpy
+sentence-transformers
+torch
+gradio==4.44.1
