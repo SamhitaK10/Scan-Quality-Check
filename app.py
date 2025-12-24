@@ -124,13 +124,11 @@ try:
     import gradio.utils as gr_utils
 
     def _no_watchfn_spaces(*args, **kwargs):
-        # Do nothing: prevents importing spaces.reloading / jurigged / codefind
         return
 
     if hasattr(gr_utils, "watchfn_spaces"):
         gr_utils.watchfn_spaces = _no_watchfn_spaces
 except Exception:
-    # If anything goes wrong here, just ignore and still try to launch
     pass
 
 demo.launch(
