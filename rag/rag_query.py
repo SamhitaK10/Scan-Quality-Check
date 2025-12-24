@@ -51,8 +51,6 @@ with open(emb_path, "r", encoding="utf-8") as f:
 
 embeddings = np.array([np.array(item["embedding"], dtype=float) for item in data])
 
-# Prepare embedding function for queries. Try sentence_transformers first,
-# otherwise fallback to transformers+torch mean-pooling.
 def _build_embedder():
     try:
         from sentence_transformers import SentenceTransformer
